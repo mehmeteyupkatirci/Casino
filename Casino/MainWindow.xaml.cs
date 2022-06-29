@@ -35,12 +35,12 @@ namespace Casino
 
         private void btnMainMin_Click(object sender, RoutedEventArgs e)
         {
-            Environment.Exit(0);
+            WindowState = WindowState.Minimized;
         }
 
         private void btnMainClose_Click(object sender, RoutedEventArgs e)
         {
-            WindowState = WindowState.Minimized;
+            Environment.Exit(0);
         }
     }
 }
