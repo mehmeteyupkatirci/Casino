@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen" 
         WindowStyle="None" 
-        BorderBrush="#194771" BorderThickness="4"
+        BorderBrush="#B0413E" BorderThickness="4"
         ResizeMode="CanMinimize"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
@@ -21,13 +21,90 @@
             <!--<TextBlock Text="{DynamicResource appFullName}" Panel.ZIndex="2" Style="{StaticResource TitleBarText}"/>-->
         </StackPanel>
         <StackPanel Name="MyTitleBar" VerticalAlignment="Top" MouseDown="MyTitleBar_MouseDown" Panel.ZIndex="1" Grid.ColumnSpan="2" Grid.RowSpan="2">
-            <Border Background="#27527B" Height="32" >
+            <Border Background="#B0413E" Height="32" >
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                     <Button Name="btnMainMin" Content="—" Margin="0,-2,0,0" VerticalContentAlignment="Top" FontWeight="Bold" Click="btnMainMin_Click" Style="{StaticResource TitleButton}" Width="40" />
                     <Button Name="btnMainClose" Content="X" Margin="0,-2,0,0" Click="btnMainClose_Click" Style="{StaticResource TitleButton}" Width="40" />
                 </StackPanel>
             </Border>
         </StackPanel>
-        <TextBlock>EYÜP</TextBlock>
+        <Grid Grid.Row="2" Height="300" Width="550" VerticalAlignment="Top">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <!--#region Buttons-->
+            <Button Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" Background="White" Foreground="Black" FontSize="50">0</Button>
+            <!--1-->
+            <Button Grid.Column="1" Grid.Row="2" Background="Black" Foreground="White" FontSize="30">1</Button>
+            <Button Grid.Column="1" Grid.Row="1" Background="Red" Foreground="White" FontSize="30">2</Button>
+            <Button Grid.Column="1" Grid.Row="0" Background="Black" Foreground="White" FontSize="30">3</Button>
+            <!--2-->
+            <Button Grid.Column="2" Grid.Row="2" Background="Red" Foreground="White" FontSize="30">4</Button>
+            <Button Grid.Column="2" Grid.Row="1" Background="Black" Foreground="White" FontSize="30">5</Button>
+            <Button Grid.Column="2" Grid.Row="0" Background="Red" Foreground="White" FontSize="30">6</Button>
+            <!--3-->
+            <Button Grid.Column="3" Grid.Row="2" Background="Black" Foreground="White" FontSize="30">7</Button>
+            <Button Grid.Column="3" Grid.Row="1" Background="Red" Foreground="White" FontSize="30">8</Button>
+            <Button Grid.Column="3" Grid.Row="0" Background="Black" Foreground="White" FontSize="30">9</Button>
+            <!--4-->
+            <Button Grid.Column="4" Grid.Row="2" Background="Red" Foreground="White" FontSize="30">10</Button>
+            <Button Grid.Column="4" Grid.Row="1" Background="Black" Foreground="White" FontSize="30">11</Button>
+            <Button Grid.Column="4" Grid.Row="0" Background="Red" Foreground="White" FontSize="30">12</Button>
+            <!--5-->
+            <Button Grid.Column="5" Grid.Row="2" Background="Black" Foreground="White" FontSize="30">13</Button>
+            <Button Grid.Column="5" Grid.Row="1" Background="Red" Foreground="White" FontSize="30">14</Button>
+            <Button Grid.Column="5" Grid.Row="0" Background="Black" Foreground="White" FontSize="30">15</Button>
+            <!--6-->
+            <Button Grid.Column="6" Grid.Row="2" Background="Red" Foreground="White" FontSize="30">16</Button>
+            <Button Grid.Column="6" Grid.Row="1" Background="Black" Foreground="White" FontSize="30">17</Button>
+            <Button Grid.Column="6" Grid.Row="0" Background="Red" Foreground="White" FontSize="30">18</Button>
+            <!--7-->
+            <Button Grid.Column="7" Grid.Row="2" Background="Black" Foreground="White" FontSize="30">19</Button>
+            <Button Grid.Column="7" Grid.Row="1" Background="Red" Foreground="White" FontSize="30">20</Button>
+            <Button Grid.Column="7" Grid.Row="0" Background="Black" Foreground="White" FontSize="30">21</Button>
+            <!--8-->
+            <Button Grid.Column="8" Grid.Row="2" Background="Red" Foreground="White" FontSize="30">22</Button>
+            <Button Grid.Column="8" Grid.Row="1" Background="Black" Foreground="White" FontSize="30">23</Button>
+            <Button Grid.Column="8" Grid.Row="0" Background="Red" Foreground="White" FontSize="30">24</Button>
+            <!--9-->
+            <Button Grid.Column="9" Grid.Row="2" Background="Black" Foreground="White" FontSize="30">25</Button>
+            <Button Grid.Column="9" Grid.Row="1" Background="Red" Foreground="White" FontSize="30">26</Button>
+            <Button Grid.Column="9" Grid.Row="0" Background="Black" Foreground="White" FontSize="30">27</Button>
+            <!--10-->
+            <Button Grid.Column="10" Grid.Row="2" Background="Red" Foreground="White" FontSize="30">28</Button>
+            <Button Grid.Column="10" Grid.Row="1" Background="Black" Foreground="White" FontSize="30">29</Button>
+            <Button Grid.Column="10" Grid.Row="0" Background="Red" Foreground="White" FontSize="30">30</Button>
+            <!--11-->
+            <Button Grid.Column="11" Grid.Row="2" Background="Black" Foreground="White" FontSize="30">31</Button>
+            <Button Grid.Column="11" Grid.Row="1" Background="Red" Foreground="White" FontSize="30">32</Button>
+            <Button Grid.Column="11" Grid.Row="0" Background="Black" Foreground="White" FontSize="30">33</Button>
+            <!--12-->
+            <Button Grid.Column="12" Grid.Row="2" Background="Red" Foreground="White" FontSize="30">34</Button>
+            <Button Grid.Column="12" Grid.Row="1" Background="Black" Foreground="White" FontSize="30">35</Button>
+            <Button Grid.Column="12" Grid.Row="0" Background="Red" Foreground="White" FontSize="30">36</Button>
+            <!--#endregion-->
+        </Grid>
+        <TextBlock Grid.Row="2" FontSize="60" Name="txtCoin">0</TextBlock>
+        <Button Name="Spin" Click="Spin_Click" VerticalAlignment="Bottom" Grid.Row="2" Height="40" Width="200" Background="Black" Foreground="White" >ÇEVİR</Button>
     </Grid>
 </Window>
