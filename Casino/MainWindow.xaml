@@ -10,7 +10,7 @@
         BorderBrush="#B0413E" BorderThickness="4"
         ResizeMode="CanMinimize"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="Green">
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
             <RowDefinition Height="40"/>
@@ -103,6 +103,16 @@
             <Button Grid.Column="12" Grid.Row="1" Background="Black" Foreground="White" FontSize="30">35</Button>
             <Button Grid.Column="12" Grid.Row="0" Background="Red" Foreground="White" FontSize="30">36</Button>
             <!--#endregion-->
+            
+            <Button Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="4" Background="Green" Foreground="White" BorderThickness="3" BorderBrush="White" >1 st 12</Button>
+            <Button Grid.Column="5" Grid.Row="3" Grid.ColumnSpan="4" Background="Green" Foreground="White" BorderThickness="3" BorderBrush="White" >2 st 12</Button>
+            <Button Grid.Column="9" Grid.Row="3" Grid.ColumnSpan="4" Background="Green" Foreground="White" BorderThickness="3" BorderBrush="White" >3 st 12</Button>
+
+            <Button Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="4" Background="Green" Foreground="White" BorderThickness="3" BorderBrush="White" >1 TO 18</Button>
+            <Button Grid.Column="5" Grid.Row="4" Grid.ColumnSpan="2" Background="Green" FontSize="20" Foreground="Red" BorderThickness="3" BorderBrush="RED" >RED</Button>
+            <Button Grid.Column="7" Grid.Row="4" Grid.ColumnSpan="2" Background="Green" FontSize="20" Foreground="Black" BorderThickness="3" BorderBrush="Black" >BLACK</Button>
+            <Button Grid.Column="9" Grid.Row="4" Grid.ColumnSpan="4" Background="Green" Foreground="White" BorderThickness="3" BorderBrush="White" >19 TO 36</Button>
+
         </Grid>
         <TextBlock Grid.Row="2" FontSize="60" Name="txtCoin">0</TextBlock>
         <Button Name="Spin" Click="Spin_Click" VerticalAlignment="Bottom" Grid.Row="2" Height="40" Width="200" Background="Black" Foreground="White" >ÇEVİR</Button>
