@@ -61,6 +61,11 @@ namespace Casino
                         _coin += 36;
                         CoinUpdater(_coin);
                     }
+
+                    if (item == 112 || item == 212 || item ==312)
+                    {
+                        PartChecker(master, item);
+                    }
                 }
 
                 _bets.Clear();
@@ -92,6 +97,40 @@ namespace Casino
             }
         }
 
+        public void PartChecker(int master, int item)
+        {
+            if (item == 112)
+            {
+                if (master > 0 && master <= 12)
+                {
+                    //1 ile 12 aralığı
+                    _coin += 3;
+                    CoinUpdater(_coin);
+                }
+            }
+
+            else if (item == 212)
+            {
+                if (master > 12 && master <= 24)
+                {
+                    //12 ile 24 aralığı
+                    _coin += 3;
+                    CoinUpdater(_coin);
+                }
+            }
+
+            else if (item == 312)
+            {
+                if (master > 24 && master <= 36)
+                {
+                    //24 ile 36 aralığı
+                    _coin += 3;
+                    CoinUpdater(_coin);
+                }
+            }
+        }
+
+        #region Bet Buttons
         private void btn0_Click(object sender, RoutedEventArgs e)
         {
            BetTaker(_coin, 0);
@@ -117,44 +156,40 @@ namespace Casino
             BetTaker(_coin, 4);
         }
 
+        private void btn5_Click(object sender, RoutedEventArgs e)
+        {
+            BetTaker(_coin, 5);
+        }
+
         private void btn6_Click(object sender, RoutedEventArgs e)
         {
             BetTaker(_coin, 6);
         }
-
-        private void btn5_Click(object sender, RoutedEventArgs e)
+        private void btn7_Click(object sender, RoutedEventArgs e)
         {
-            BetTaker(_coin, 5);
+            BetTaker(_coin, 7);
+        }
+        private void btn8_Click(object sender, RoutedEventArgs e)
+        {
+            BetTaker(_coin, 8);
         }
 
         private void btn9_Click(object sender, RoutedEventArgs e)
         {
             BetTaker(_coin, 9);
         }
-
-        private void btn8_Click(object sender, RoutedEventArgs e)
+        private void btn10_Click(object sender, RoutedEventArgs e)
         {
-            BetTaker(_coin, 8);
-        }
-
-        private void btn7_Click(object sender, RoutedEventArgs e)
-        {
-            BetTaker(_coin, 7);
-        }
-
-        private void btn12_Click(object sender, RoutedEventArgs e)
-        {
-            BetTaker(_coin, 12);
+            BetTaker(_coin, 10);
         }
 
         private void btn11_Click(object sender, RoutedEventArgs e)
         {
             BetTaker(_coin, 11);
         }
-
-        private void btn10_Click(object sender, RoutedEventArgs e)
+        private void btn12_Click(object sender, RoutedEventArgs e)
         {
-            BetTaker(_coin, 10);
+            BetTaker(_coin, 12);
         }
 
         private void btn13_Click(object sender, RoutedEventArgs e)
@@ -276,5 +311,46 @@ namespace Casino
         {
             BetTaker(_coin, 36);
         }
+
+        #endregion
+
+        #region Bottom Bet Buttons
+
+        //İlk 12 (112), ikinci 12 (212) ve üçüncü 12 (312) olarak numaralandırıldı.
+        private void btnFirstPart_Click(object sender, RoutedEventArgs e)
+        {
+            BetTaker(_coin, 112);
+        }
+
+        private void btnSecondPart_Click(object sender, RoutedEventArgs e)
+        {
+            BetTaker(_coin, 212);
+        }
+
+        private void btnThirdPart_Click(object sender, RoutedEventArgs e)
+        {
+            BetTaker(_coin, 312);
+        }
+
+        private void btnOne2Eighteen_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnRED_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBlack_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnNineteen2ThirtySix_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        #endregion
     }
 }
