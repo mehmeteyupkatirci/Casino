@@ -59,49 +59,49 @@
             <Button Name="btn2" Click="btn2_Click" Grid.Column="1" Grid.Row="1" Background="Red" Foreground="White" FontSize="30">2</Button>
             <Button Name="btn3" Click="btn3_Click" Grid.Column="1" Grid.Row="0" Background="Black" Foreground="White" FontSize="30">3</Button>
             <!--2-->
-            <Button Grid.Column="2" Grid.Row="2" Background="Red" Foreground="White" FontSize="30">4</Button>
-            <Button Grid.Column="2" Grid.Row="1" Background="Black" Foreground="White" FontSize="30">5</Button>
-            <Button Grid.Column="2" Grid.Row="0" Background="Red" Foreground="White" FontSize="30">6</Button>
+            <Button Name="btn4" Click="btn4_Click" Grid.Column="2" Grid.Row="2" Background="Red" Foreground="White" FontSize="30">4</Button>
+            <Button Name="btn5" Click="btn5_Click" Grid.Column="2" Grid.Row="1" Background="Black" Foreground="White" FontSize="30">5</Button>
+            <Button Name="btn6" Click="btn6_Click" Grid.Column="2" Grid.Row="0" Background="Red" Foreground="White" FontSize="30">6</Button>
             <!--3-->
-            <Button Grid.Column="3" Grid.Row="2" Background="Black" Foreground="White" FontSize="30">7</Button>
-            <Button Grid.Column="3" Grid.Row="1" Background="Red" Foreground="White" FontSize="30">8</Button>
-            <Button Grid.Column="3" Grid.Row="0" Background="Black" Foreground="White" FontSize="30">9</Button>
+            <Button Name="btn7" Click="btn7_Click" Grid.Column="3" Grid.Row="2" Background="Black" Foreground="White" FontSize="30">7</Button>
+            <Button Name="btn8" Click="btn8_Click" Grid.Column="3" Grid.Row="1" Background="Red" Foreground="White" FontSize="30">8</Button>
+            <Button Name="btn9" Click="btn9_Click" Grid.Column="3" Grid.Row="0" Background="Black" Foreground="White" FontSize="30">9</Button>
             <!--4-->
-            <Button Grid.Column="4" Grid.Row="2" Background="Red" Foreground="White" FontSize="30">10</Button>
-            <Button Grid.Column="4" Grid.Row="1" Background="Black" Foreground="White" FontSize="30">11</Button>
-            <Button Grid.Column="4" Grid.Row="0" Background="Red" Foreground="White" FontSize="30">12</Button>
+            <Button Name="btn10" Click="btn10_Click" Grid.Column="4" Grid.Row="2" Background="Red" Foreground="White" FontSize="30">10</Button>
+            <Button Name="btn11" Click="btn11_Click" Grid.Column="4" Grid.Row="1" Background="Black" Foreground="White" FontSize="30">11</Button>
+            <Button Name="btn12" Click="btn12_Click" Grid.Column="4" Grid.Row="0" Background="Red" Foreground="White" FontSize="30">12</Button>
             <!--5-->
-            <Button Grid.Column="5" Grid.Row="2" Background="Black" Foreground="White" FontSize="30">13</Button>
-            <Button Grid.Column="5" Grid.Row="1" Background="Red" Foreground="White" FontSize="30">14</Button>
-            <Button Grid.Column="5" Grid.Row="0" Background="Black" Foreground="White" FontSize="30">15</Button>
+            <Button Name="btn13" Click="btn13_Click" Grid.Column="5" Grid.Row="2" Background="Black" Foreground="White" FontSize="30">13</Button>
+            <Button Name="btn14" Click="btn14_Click" Grid.Column="5" Grid.Row="1" Background="Red" Foreground="White" FontSize="30">14</Button>
+            <Button Name="btn15" Click="btn15_Click" Grid.Column="5" Grid.Row="0" Background="Black" Foreground="White" FontSize="30">15</Button>
             <!--6-->
-            <Button Grid.Column="6" Grid.Row="2" Background="Red" Foreground="White" FontSize="30">16</Button>
-            <Button Grid.Column="6" Grid.Row="1" Background="Black" Foreground="White" FontSize="30">17</Button>
-            <Button Grid.Column="6" Grid.Row="0" Background="Red" Foreground="White" FontSize="30">18</Button>
-            <!--7-->
-            <Button Grid.Column="7" Grid.Row="2" Background="Black" Foreground="White" FontSize="30">19</Button>
-            <Button Grid.Column="7" Grid.Row="1" Background="Red" Foreground="White" FontSize="30">20</Button>
-            <Button Grid.Column="7" Grid.Row="0" Background="Black" Foreground="White" FontSize="30">21</Button>
-            <!--8-->
-            <Button Grid.Column="8" Grid.Row="2" Background="Red" Foreground="White" FontSize="30">22</Button>
-            <Button Grid.Column="8" Grid.Row="1" Background="Black" Foreground="White" FontSize="30">23</Button>
-            <Button Grid.Column="8" Grid.Row="0" Background="Red" Foreground="White" FontSize="30">24</Button>
-            <!--9-->
-            <Button Grid.Column="9" Grid.Row="2" Background="Black" Foreground="White" FontSize="30">25</Button>
-            <Button Grid.Column="9" Grid.Row="1" Background="Red" Foreground="White" FontSize="30">26</Button>
-            <Button Grid.Column="9" Grid.Row="0" Background="Black" Foreground="White" FontSize="30">27</Button>
-            <!--10-->
-            <Button Grid.Column="10" Grid.Row="2" Background="Red" Foreground="White" FontSize="30">28</Button>
-            <Button Grid.Column="10" Grid.Row="1" Background="Black" Foreground="White" FontSize="30">29</Button>
-            <Button Grid.Column="10" Grid.Row="0" Background="Red" Foreground="White" FontSize="30">30</Button>
-            <!--11-->
-            <Button Grid.Column="11" Grid.Row="2" Background="Black" Foreground="White" FontSize="30">31</Button>
-            <Button Grid.Column="11" Grid.Row="1" Background="Red" Foreground="White" FontSize="30">32</Button>
-            <Button Grid.Column="11" Grid.Row="0" Background="Black" Foreground="White" FontSize="30">33</Button>
-            <!--12-->
-            <Button Grid.Column="12" Grid.Row="2" Background="Red" Foreground="White" FontSize="30">34</Button>
-            <Button Grid.Column="12" Grid.Row="1" Background="Black" Foreground="White" FontSize="30">35</Button>
-            <Button Grid.Column="12" Grid.Row="0" Background="Red" Foreground="White" FontSize="30">36</Button>
+            <Button Name="btn16" Click="btn16_Click" Grid.Column="6" Grid.Row="2" Background="Red" Foreground="White" FontSize="30">16</Button>
+            <Button Name="btn17" Click="btn17_Click" Grid.Column="6" Grid.Row="1" Background="Black" Foreground="White" FontSize="30">17</Button>
+            <Button Name="btn18" Click="btn18_Click" Grid.Column="6" Grid.Row="0" Background="Red" Foreground="White" FontSize="30">18</Button>
+            <!--7-->                    
+            <Button Name="btn19" Click="btn19_Click" Grid.Column="7" Grid.Row="2" Background="Black" Foreground="White" FontSize="30">19</Button>
+            <Button Name="btn20" Click="btn20_Click" Grid.Column="7" Grid.Row="1" Background="Red" Foreground="White" FontSize="30">20</Button>
+            <Button Name="btn21" Click="btn21_Click" Grid.Column="7" Grid.Row="0" Background="Black" Foreground="White" FontSize="30">21</Button>
+            <!--8-->                    
+            <Button Name="btn22" Click="btn22_Click" Grid.Column="8" Grid.Row="2" Background="Red" Foreground="White" FontSize="30">22</Button>
+            <Button Name="btn23" Click="btn23_Click" Grid.Column="8" Grid.Row="1" Background="Black" Foreground="White" FontSize="30">23</Button>
+            <Button Name="btn24" Click="btn24_Click" Grid.Column="8" Grid.Row="0" Background="Red" Foreground="White" FontSize="30">24</Button>
+            <!--9-->                    
+            <Button Name="btn25" Click="btn25_Click" Grid.Column="9" Grid.Row="2" Background="Black" Foreground="White" FontSize="30">25</Button>
+            <Button Name="btn26" Click="btn26_Click" Grid.Column="9" Grid.Row="1" Background="Red" Foreground="White" FontSize="30">26</Button>
+            <Button Name="btn27" Click="btn27_Click" Grid.Column="9" Grid.Row="0" Background="Black" Foreground="White" FontSize="30">27</Button>
+            <!--10-->                  
+            <Button Name="btn28" Click="btn28_Click" Grid.Column="10" Grid.Row="2" Background="Red" Foreground="White" FontSize="30">28</Button>
+            <Button Name="btn29" Click="btn29_Click" Grid.Column="10" Grid.Row="1" Background="Black" Foreground="White" FontSize="30">29</Button>
+            <Button Name="btn30" Click="btn30_Click" Grid.Column="10" Grid.Row="0" Background="Red" Foreground="White" FontSize="30">30</Button>
+            <!--11-->                   
+            <Button Name="btn31" Click="btn31_Click" Grid.Column="11" Grid.Row="2" Background="Black" Foreground="White" FontSize="30">31</Button>
+            <Button Name="btn32" Click="btn32_Click" Grid.Column="11" Grid.Row="1" Background="Red" Foreground="White" FontSize="30">32</Button>
+            <Button Name="btn33" Click="btn33_Click" Grid.Column="11" Grid.Row="0" Background="Black" Foreground="White" FontSize="30">33</Button>
+            <!--12-->                  
+            <Button Name="btn34" Click="btn34_Click" Grid.Column="12" Grid.Row="2" Background="Red" Foreground="White" FontSize="30">34</Button>
+            <Button Name="btn35" Click="btn35_Click" Grid.Column="12" Grid.Row="1" Background="Black" Foreground="White" FontSize="30">35</Button>
+            <Button Name="btn36" Click="btn36_Click" Grid.Column="12" Grid.Row="0" Background="Red" Foreground="White" FontSize="30">36</Button>
             <!--#endregion-->
 
             <Button Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="4" Background="Green" Foreground="White" BorderThickness="3" BorderBrush="White" >1 st 12</Button>
@@ -114,7 +114,7 @@
             <Button Grid.Column="9" Grid.Row="4" Grid.ColumnSpan="4" Background="Green" Foreground="White" BorderThickness="3" BorderBrush="White" >19 TO 36</Button>
 
         </Grid>
-        <TextBlock FontSize="40" HorizontalAlignment="Left" Width="785" Height="58" VerticalAlignment="Center" Name="txtCoin" RenderTransformOrigin="0.494,-0.108" Margin="-2,0,0,0" Grid.Row="1">5</TextBlock>
+        <TextBlock FontSize="40" HorizontalAlignment="Left" Width="785" Height="58" VerticalAlignment="Center" Name="txtCoin" RenderTransformOrigin="0.494,-0.108" Margin="-2,0,0,0" Grid.Row="1">50</TextBlock>
         <Button Name="Spin" Click="Spin_Click" VerticalAlignment="Bottom" Grid.Row="2" Height="40" Width="200" Background="Black" Foreground="White" >ÇEVİR</Button>
     </Grid>
 </Window>
