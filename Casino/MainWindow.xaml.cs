@@ -51,7 +51,7 @@ namespace Casino
         {
             Random rnd = new Random();
             var master = rnd.Next(0, 36);
-
+            //var master = 14;
             if (_bets.Count > 0)
             {
                 foreach (var item in _bets)
@@ -62,7 +62,7 @@ namespace Casino
                         CoinUpdater(_coin);
                     }
 
-                    if (item == 112 || item == 212 || item ==312)
+                    if (item == 112 || item == 212 || item ==312 || item == 118 || item == 1836)
                     {
                         PartChecker(master, item);
                     }
@@ -125,6 +125,23 @@ namespace Casino
                 {
                     //24 ile 36 aralığı
                     _coin += 3;
+                    CoinUpdater(_coin);
+                }
+            }
+            else if (item == 118)
+            {
+                if (master > 0 && master <=18)
+                {
+                    _coin += 2;
+                    CoinUpdater(_coin);
+                }
+            }
+
+            else if (item == 1836)
+            {
+                if (master > 18 && master <= 36)
+                {
+                    _coin += 2;
                     CoinUpdater(_coin);
                 }
             }
@@ -334,7 +351,12 @@ namespace Casino
 
         private void btnOne2Eighteen_Click(object sender, RoutedEventArgs e)
         {
+            BetTaker(_coin, 118);
+        }
 
+        private void btnNineteen2ThirtySix_Click(object sender, RoutedEventArgs e)
+        {
+            BetTaker(_coin, 1836);
         }
 
         private void btnRED_Click(object sender, RoutedEventArgs e)
@@ -343,11 +365,6 @@ namespace Casino
         }
 
         private void btnBlack_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void btnNineteen2ThirtySix_Click(object sender, RoutedEventArgs e)
         {
 
         }
