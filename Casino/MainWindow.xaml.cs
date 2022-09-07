@@ -58,11 +58,19 @@ namespace Casino
                 {
                     if (master == item)
                     {
-                        _coin += 36;
-                        CoinUpdater(_coin);
+                        CoinUpdater(_coin += 36);
                     }
 
-                    if (item == 112 || item == 212 || item ==312 || item == 118 || item == 1836)
+                    if (item == 665 && master %2 == 0)
+                    {
+                        CoinUpdater(_coin += 2);
+                    }
+                    if (item == 666 && master % 2 == 1)
+                    {
+                        CoinUpdater(_coin += 2);
+                    }
+
+                    if (item == 112 || item == 212 || item ==312 || item == 118 || item == 1936)
                     {
                         PartChecker(master, item);
                     }
@@ -86,8 +94,7 @@ namespace Casino
         {
             if (coin > 0)
             {
-                _coin -= 1;
-                CoinUpdater(_coin);
+                CoinUpdater(_coin -=1);
                 _bets.Add(bet);
             }
             else
@@ -104,8 +111,7 @@ namespace Casino
                 if (master > 0 && master <= 12)
                 {
                     //1 ile 12 aralığı
-                    _coin += 3;
-                    CoinUpdater(_coin);
+                    CoinUpdater(_coin += 3);
                 }
             }
 
@@ -114,8 +120,7 @@ namespace Casino
                 if (master > 12 && master <= 24)
                 {
                     //12 ile 24 aralığı
-                    _coin += 3;
-                    CoinUpdater(_coin);
+                    CoinUpdater(_coin += 3);
                 }
             }
 
@@ -124,25 +129,22 @@ namespace Casino
                 if (master > 24 && master <= 36)
                 {
                     //24 ile 36 aralığı
-                    _coin += 3;
-                    CoinUpdater(_coin);
+                    CoinUpdater(_coin +=3);
                 }
             }
             else if (item == 118)
             {
                 if (master > 0 && master <=18)
                 {
-                    _coin += 2;
-                    CoinUpdater(_coin);
+                    CoinUpdater(_coin += 2);
                 }
             }
 
-            else if (item == 1836)
+            else if (item == 1936)
             {
-                if (master > 18 && master <= 36)
+                if (master > 19 && master <= 36)
                 {
-                    _coin += 2;
-                    CoinUpdater(_coin);
+                    CoinUpdater(_coin += 2);
                 }
             }
         }
@@ -356,17 +358,17 @@ namespace Casino
 
         private void btnNineteen2ThirtySix_Click(object sender, RoutedEventArgs e)
         {
-            BetTaker(_coin, 1836);
+            BetTaker(_coin, 1936);
         }
 
         private void btnRED_Click(object sender, RoutedEventArgs e)
         {
-
+            BetTaker(_coin, 665);
         }
 
         private void btnBlack_Click(object sender, RoutedEventArgs e)
         {
-
+            BetTaker(_coin, 666);
         }
         #endregion
     }

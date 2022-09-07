@@ -115,7 +115,7 @@
             <Button Name="btnNineteen2ThirtySix" Click="btnNineteen2ThirtySix_Click" Grid.Column="9" Grid.Row="4" Grid.ColumnSpan="4" Background="Green" Foreground="White" BorderThickness="3" BorderBrush="White" >19 TO 36</Button>
 
         </Grid>
-        <TextBlock FontSize="40" HorizontalAlignment="Left" Width="785" Height="58" VerticalAlignment="Center" Name="txtCoin" RenderTransformOrigin="0.494,-0.108" Margin="-2,0,0,0" Grid.Row="1">50</TextBlock>
+        <TextBlock FontSize="40" HorizontalAlignment="Left" Width="785" Height="58" VerticalAlignment="Center" Name="txtCoin" RenderTransformOrigin="0.494,-0.108" Margin="-2,0,0,0" Grid.Row="1">5</TextBlock>
         <Button Name="Spin" Click="Spin_Click" VerticalAlignment="Bottom" Grid.Row="2" Height="40" Width="200" Background="Black" Foreground="White" >ÇEVİR</Button>
     </Grid>
 </Window>
